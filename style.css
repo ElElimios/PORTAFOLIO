@@ -483,3 +483,66 @@ body {
         height: 180px;
     }
 }
+
+@media (max-width: 600px) {
+    .pixel-text {
+        font-size: 1.6rem;
+        gap: 3px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .hero-intro {
+        font-size: 1rem;
+        padding: 0 15px;
+    }
+
+    .skills-grid {
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+        gap: 15px;
+    }
+
+    .skill-item {
+        padding: 15px 5px;
+    }
+
+    .skill-icon-img {
+        width: 40px;
+        height: 40px;
+        margin-bottom: 10px;
+    }
+
+    .skill-item p {
+        font-size: 0.55rem;
+    }
+
+    .about-container,
+    .experience-container,
+    .skills-container,
+    .contact-container {
+        width: 95%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .exp-card {
+        padding: 15px;
+    }
+
+    .exp-card h3 {
+        font-size: 0.8rem;
+    }
+
+    .exp-card p {
+        font-size: 0.95rem;
+    }
+
+    .navbar {
+        gap: 15px;
+        padding: 15px 0;
+    }
+
+    .navbar a {
+        font-size: 0.65rem;
+    }
+}
