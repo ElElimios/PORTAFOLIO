@@ -2,6 +2,9 @@ READ ME
 
 - Worked on a portfolio for horizons and used only HTML and CSS, NO JS.
 
+----- Features
+- This project features some of the things I've done before and what skill I have, Hobbies, Music Taste and more you can see for yourself.
+
 
 So I decided to work on HTML using sections and importing a custom font to make it look like a game or sum like that.
 Then came CSS and used the web page W3Schools to learn about more effects like hovers, keyframes, adapt it to mobile and a lot more things.
